@@ -1,0 +1,33 @@
+name: Update Helix Languages TOML
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-languages:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.13'
+
+    - name: Install dependencies
+      run: pip3 install tomli tomli_w requests
+
+    - name: Run script
+      run: python3 ./script/apply_language.py
+
+    - name: Commit changes
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git add .
+        git commit -m 'update(helix) languages.toml' || echo "No changes to commit"
+        git push
