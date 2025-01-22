@@ -11,7 +11,7 @@ pub struct LspConfig {
     pub small_image: Option<String>,
     pub small_text: Option<String>,
 
-    pub view_repositoy_button: bool,
+    pub view_git_repositoy: bool,
 }
 
 impl LspConfig {
@@ -27,7 +27,7 @@ impl LspConfig {
             large_text: Some(String::from("{language:u}")),
             small_image: Some(String::from("{base_icons_url}/helix.png")),
             small_text: Some(String::from("Helix")),
-            view_repositoy_button: true,
+            view_git_repositoy: true,
         }
     }
 }

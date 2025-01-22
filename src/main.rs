@@ -123,7 +123,7 @@ impl Backend {
             large_text,
             small_image,
             small_text,
-            git_remote_url: if config.view_repositoy_button {
+            git_remote_url: if config.view_git_repositoy {
                 let git_remote_url_guard = self.get_git_remote_url().await;
                 git_remote_url_guard.clone()
             } else {
