@@ -1,0 +1,19 @@
+[package]
+name = "helix-discord-presence"
+version = "0.1.0"
+edition = "2021"
+license-file = "LICENSE"
+
+[[bin]]
+name = "discord-presence-lsp"
+path = "src/main.rs"
+
+[dependencies]
+discord-rich-presence = "0.2.5"
+tower-lsp = "0.20"
+git2 = { version = "0.20", default-features = false }
+serde_json = { version = "1.0", features = ["std"] }
+regex = { version = "1.10", default-features = false, features = ["std", "perf", "unicode-case", "unicode-perl"] }
+tokio = { version = "1.37", features = ["rt-multi-thread", "io-std", "macros", "time"] }
+urlencoding = "2.1"
+
