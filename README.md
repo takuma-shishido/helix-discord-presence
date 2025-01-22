@@ -32,7 +32,7 @@ Once extensions are supported, I plan to switch from lsp to another method.
 3. Start Helix and verify that the Discord presence is displayed correctly.
 
 ## Currently recognized issues (Please do not create issues about this)
-- The "Repository View" button is not displayed (This seems to be a Discord issue. There is nothing I can do about it).
+- The "View Repository" button is not displayed (This seems to be a Discord issue. There is nothing I can do about it).
 
 ## TODO
 - [ ] Support configuration (currently hardcoded)
