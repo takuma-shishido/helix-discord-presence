@@ -54,6 +54,7 @@ language-servers = [
 [[language]]
 name = "fish"
 language-servers = [
+    "fish-lsp",
     "discord-presence",
 ]
 
@@ -250,6 +251,7 @@ language-servers = [
 [[language]]
 name = "ruby"
 language-servers = [
+    "ruby-lsp",
     "solargraph",
     "discord-presence",
 ]
@@ -342,6 +344,7 @@ language-servers = [
 [[language]]
 name = "beancount"
 language-servers = [
+    "beancount-language-server",
     "discord-presence",
 ]
 
@@ -997,6 +1000,7 @@ language-servers = [
 [[language]]
 name = "wat"
 language-servers = [
+    "wasm-language-tools",
     "discord-presence",
 ]
 
