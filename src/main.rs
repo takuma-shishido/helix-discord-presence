@@ -7,6 +7,7 @@ use std::sync::Arc;
 use client::discord::{Discord, DiscordActivityPreload};
 use client::git::get_repository_and_remote;
 use config::LspConfig;
+use notification::ShowMessage;
 use tokio::sync::{Mutex, MutexGuard};
 use tower_lsp::jsonrpc::Result;
 use tower_lsp::lsp_types::*;
@@ -173,10 +174,10 @@ impl LanguageServer for Backend {
 
     async fn initialized(&self, _: InitializedParams) {
         self.client
-            .log_message(
-                MessageType::INFO,
-                "Discord Presence LSP server intiailized!",
-            )
+            .send_notification::<ShowMessage>(ShowMessageParams {
+                typ: MessageType::INFO,
+                message: "Discord Presence LSP server intiailized!".to_string(),
+            })
             .await;
     }
 
