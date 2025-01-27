@@ -1161,12 +1161,14 @@ language-servers = [
 [[language]]
 name = "nasm"
 language-servers = [
+    "asm-lsp",
     "discord-presence",
 ]
 
 [[language]]
 name = "gas"
 language-servers = [
+    "asm-lsp",
     "discord-presence",
 ]
 
