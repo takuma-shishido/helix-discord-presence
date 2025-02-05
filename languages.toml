@@ -1647,3 +1647,15 @@ name = "ghostty"
 language-servers = [
     "discord-presence",
 ]
+
+[[language]]
+name = "tera"
+language-servers = [
+    "discord-presence",
+]
+
+[[language]]
+name = "fga"
+language-servers = [
+    "discord-presence",
+]
