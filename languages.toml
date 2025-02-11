@@ -550,6 +550,12 @@ language-servers = [
 ]
 
 [[language]]
+name = "djot"
+language-servers = [
+    "discord-presence",
+]
+
+[[language]]
 name = "dart"
 language-servers = [
     "dart",
@@ -1657,5 +1663,18 @@ language-servers = [
 [[language]]
 name = "fga"
 language-servers = [
+    "discord-presence",
+]
+
+[[language]]
+name = "csv"
+language-servers = [
+    "discord-presence",
+]
+
+[[language]]
+name = "yara"
+language-servers = [
+    "yls",
     "discord-presence",
 ]
