@@ -1294,7 +1294,6 @@ language-servers = [
 name = "typst"
 language-servers = [
     "tinymist",
-    "typst-lsp",
     "discord-presence",
 ]
 
@@ -1462,7 +1461,7 @@ language-servers = [
 [[language]]
 name = "pkgbuild"
 language-servers = [
-    "pkgbuild-language-server",
+    "termux-language-server",
     { except-features = [
     "diagnostics",
 ], name = "bash-language-server" },
@@ -1676,5 +1675,11 @@ language-servers = [
 name = "yara"
 language-servers = [
     "yls",
+    "discord-presence",
+]
+
+[[language]]
+name = "ink"
+language-servers = [
     "discord-presence",
 ]
