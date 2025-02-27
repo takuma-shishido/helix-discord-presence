@@ -33,8 +33,9 @@ language-servers = [
 [[language]]
 name = "protobuf"
 language-servers = [
-    "bufls",
+    "buf",
     "pbkit",
+    "protols",
     "discord-presence",
 ]
 
@@ -536,6 +537,12 @@ language-servers = [
 ]
 
 [[language]]
+name = "mail"
+language-servers = [
+    "discord-presence",
+]
+
+[[language]]
 name = "markdown"
 language-servers = [
     "marksman",
@@ -894,6 +901,7 @@ language-servers = [
 [[language]]
 name = "starlark"
 language-servers = [
+    "starpls",
     "discord-presence",
 ]
 
@@ -993,6 +1001,7 @@ language-servers = [
 [[language]]
 name = "astro"
 language-servers = [
+    "astro-ls",
     "discord-presence",
 ]
 
@@ -1412,6 +1421,7 @@ language-servers = [
 [[language]]
 name = "pkl"
 language-servers = [
+    "pkl-lsp",
     "discord-presence",
 ]
 
