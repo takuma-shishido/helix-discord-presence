@@ -1693,3 +1693,10 @@ name = "ink"
 language-servers = [
     "discord-presence",
 ]
+
+[[language]]
+name = "sourcepawn"
+language-servers = [
+    "sourcepawn-studio",
+    "discord-presence",
+]
