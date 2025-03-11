@@ -508,7 +508,7 @@ language-servers = [
 [[language]]
 name = "wgsl"
 language-servers = [
-    "wgsl_analyzer",
+    "wgsl-analyzer",
     "discord-presence",
 ]
 
