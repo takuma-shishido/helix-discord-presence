@@ -1700,3 +1700,9 @@ language-servers = [
     "sourcepawn-studio",
     "discord-presence",
 ]
+
+[[language]]
+name = "tlaplus"
+language-servers = [
+    "discord-presence",
+]
