@@ -1,3 +1,8 @@
+> [!IMPORTANT]
+> This project is no longer maintained.  
+> Please check out the new project provided by the same author:  
+> https://github.com/takuma-shishido/helix-rich-lsp  
+
 helix-discord-presence is an lsp project that add support [Discord Rich Presence](https://discord.com/developers/docs/rich-presence/how-to) in [Helix](https://github.com/helix-editor/helix).
 
 Since Helix does not currently support extensions ([a draft PR exists](https://github.com/helix-editor/helix/pull/8675)), I am using an alternative method with lsp.  
