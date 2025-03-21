@@ -1706,3 +1706,9 @@ name = "tlaplus"
 language-servers = [
     "discord-presence",
 ]
+
+[[language]]
+name = "werk"
+language-servers = [
+    "discord-presence",
+]
