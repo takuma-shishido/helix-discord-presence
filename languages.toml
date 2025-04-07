@@ -506,6 +506,12 @@ language-servers = [
 ]
 
 [[language]]
+name = "wesl"
+language-servers = [
+    "discord-presence",
+]
+
+[[language]]
 name = "wgsl"
 language-servers = [
     "wgsl-analyzer",
@@ -1257,6 +1263,7 @@ language-servers = [
 [[language]]
 name = "just"
 language-servers = [
+    "just-lsp",
     "discord-presence",
 ]
 
@@ -1709,6 +1716,12 @@ language-servers = [
 
 [[language]]
 name = "werk"
+language-servers = [
+    "discord-presence",
+]
+
+[[language]]
+name = "debian"
 language-servers = [
     "discord-presence",
 ]
