@@ -53,6 +53,13 @@ language-servers = [
 ]
 
 [[language]]
+name = "fennel"
+language-servers = [
+    "fennel-ls",
+    "discord-presence",
+]
+
+[[language]]
 name = "fish"
 language-servers = [
     "fish-lsp",
