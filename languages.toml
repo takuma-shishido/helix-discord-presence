@@ -723,6 +723,12 @@ language-servers = [
 ]
 
 [[language]]
+name = "quarto"
+language-servers = [
+    "discord-presence",
+]
+
+[[language]]
 name = "ron"
 language-servers = [
     "discord-presence",
