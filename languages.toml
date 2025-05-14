@@ -564,6 +564,12 @@ language-servers = [
 ]
 
 [[language]]
+name = "markdown-rustdoc"
+language-servers = [
+    "discord-presence",
+]
+
+[[language]]
 name = "markdown.inline"
 language-servers = [
     "discord-presence",
