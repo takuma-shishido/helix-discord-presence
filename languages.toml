@@ -1763,3 +1763,9 @@ name = "dunstrc"
 language-servers = [
     "discord-presence",
 ]
+
+[[language]]
+name = "rust-format-args"
+language-servers = [
+    "discord-presence",
+]
