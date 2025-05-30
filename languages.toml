@@ -235,6 +235,7 @@ language-servers = [
 [[language]]
 name = "python"
 language-servers = [
+    "ty",
     "ruff",
     "jedi",
     "pylsp",
