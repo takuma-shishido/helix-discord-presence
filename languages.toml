@@ -1770,3 +1770,10 @@ name = "rust-format-args"
 language-servers = [
     "discord-presence",
 ]
+
+[[language]]
+name = "clarity"
+language-servers = [
+    "clarinet",
+    "discord-presence",
+]
