@@ -1777,3 +1777,9 @@ language-servers = [
     "clarinet",
     "discord-presence",
 ]
+
+[[language]]
+name = "alloy"
+language-servers = [
+    "discord-presence",
+]
