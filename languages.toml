@@ -1783,3 +1783,10 @@ name = "alloy"
 language-servers = [
     "discord-presence",
 ]
+
+[[language]]
+name = "luau"
+language-servers = [
+    "luau",
+    "discord-presence",
+]
