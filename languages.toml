@@ -20,6 +20,7 @@ language-servers = [
 name = "toml"
 language-servers = [
     "taplo",
+    "tombi",
     "discord-presence",
 ]
 
@@ -76,7 +77,7 @@ language-servers = [
 [[language]]
 name = "mojo"
 language-servers = [
-    "mojo-lsp",
+    "mojo-lsp-server",
     "discord-presence",
 ]
 
