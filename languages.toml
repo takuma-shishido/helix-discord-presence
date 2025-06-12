@@ -464,6 +464,7 @@ language-servers = [
 [[language]]
 name = "cmake"
 language-servers = [
+    "neocmakelsp",
     "cmake-language-server",
     "discord-presence",
 ]
