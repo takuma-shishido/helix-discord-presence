@@ -1651,6 +1651,7 @@ language-servers = [
 [[language]]
 name = "amber"
 language-servers = [
+    "amber-lsp",
     "discord-presence",
 ]
 
