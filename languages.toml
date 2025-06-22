@@ -125,6 +125,7 @@ language-servers = [
 name = "crystal"
 language-servers = [
     "crystalline",
+    "ameba-ls",
     "discord-presence",
 ]
 
