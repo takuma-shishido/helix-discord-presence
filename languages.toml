@@ -1794,3 +1794,9 @@ language-servers = [
     "luau",
     "discord-presence",
 ]
+
+[[language]]
+name = "caddyfile"
+language-servers = [
+    "discord-presence",
+]
