@@ -1800,3 +1800,9 @@ name = "caddyfile"
 language-servers = [
     "discord-presence",
 ]
+
+[[language]]
+name = "properties"
+language-servers = [
+    "discord-presence",
+]
