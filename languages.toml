@@ -621,6 +621,12 @@ language-servers = [
 ]
 
 [[language]]
+name = "git-notes"
+language-servers = [
+    "discord-presence",
+]
+
+[[language]]
 name = "diff"
 language-servers = [
     "discord-presence",
