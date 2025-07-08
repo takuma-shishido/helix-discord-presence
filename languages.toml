@@ -844,6 +844,7 @@ language-servers = [
 [[language]]
 name = "devicetree"
 language-servers = [
+    "dts-lsp",
     "discord-presence",
 ]
 
@@ -1107,6 +1108,13 @@ language-servers = [
 [[language]]
 name = "env"
 language-servers = [
+    "discord-presence",
+]
+
+[[language]]
+name = "systemd"
+language-servers = [
+    "systemd-lsp",
     "discord-presence",
 ]
 
