@@ -102,6 +102,13 @@ language-servers = [
 ]
 
 [[language]]
+name = "json-ld"
+language-servers = [
+    "vscode-json-language-server",
+    "discord-presence",
+]
+
+[[language]]
 name = "json5"
 language-servers = [
     "discord-presence",
