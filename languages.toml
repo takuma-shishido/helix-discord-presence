@@ -242,6 +242,15 @@ language-servers = [
 ]
 
 [[language]]
+name = "htmldjango"
+language-servers = [
+    "djlsp",
+    "vscode-html-language-server",
+    "superhtml",
+    "discord-presence",
+]
+
+[[language]]
 name = "python"
 language-servers = [
     "ty",
