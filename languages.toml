@@ -1806,6 +1806,12 @@ language-servers = [
 ]
 
 [[language]]
+name = "rust-format-args-macro"
+language-servers = [
+    "discord-presence",
+]
+
+[[language]]
 name = "clarity"
 language-servers = [
     "clarinet",
