@@ -1386,7 +1386,27 @@ language-servers = [
 ]
 
 [[language]]
+name = "jjconfig"
+language-servers = [
+    "taplo",
+    "tombi",
+    "discord-presence",
+]
+
+[[language]]
 name = "jjdescription"
+language-servers = [
+    "discord-presence",
+]
+
+[[language]]
+name = "jjrevset"
+language-servers = [
+    "discord-presence",
+]
+
+[[language]]
+name = "jjtemplate"
 language-servers = [
     "discord-presence",
 ]
