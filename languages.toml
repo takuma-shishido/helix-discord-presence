@@ -708,8 +708,14 @@ language-servers = [
 [[language]]
 name = "erlang"
 language-servers = [
-    "erlang-ls",
-    "elp",
+    { name = "erlang-ls", except-features = [
+    "document-symbols",
+    "workspace-symbols",
+] },
+    { name = "elp", except-features = [
+    "document-symbols",
+    "workspace-symbols",
+] },
     "discord-presence",
 ]
 
