@@ -185,6 +185,12 @@ language-servers = [
 ]
 
 [[language]]
+name = "go-format-string"
+language-servers = [
+    "discord-presence",
+]
+
+[[language]]
 name = "javascript"
 language-servers = [
     "typescript-language-server",
@@ -399,6 +405,12 @@ language-servers = [
 name = "lua"
 language-servers = [
     "lua-language-server",
+    "discord-presence",
+]
+
+[[language]]
+name = "luap"
+language-servers = [
     "discord-presence",
 ]
 
@@ -1792,6 +1804,12 @@ language-servers = [
 name = "sourcepawn"
 language-servers = [
     "sourcepawn-studio",
+    "discord-presence",
+]
+
+[[language]]
+name = "vim"
+language-servers = [
     "discord-presence",
 ]
 
