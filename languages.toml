@@ -1291,6 +1291,12 @@ language-servers = [
 ]
 
 [[language]]
+name = "hdl"
+language-servers = [
+    "discord-presence",
+]
+
+[[language]]
 name = "vhdl"
 language-servers = [
     "vhdl_ls",
@@ -1883,6 +1889,12 @@ language-servers = [
 
 [[language]]
 name = "properties"
+language-servers = [
+    "discord-presence",
+]
+
+[[language]]
+name = "robots.txt"
 language-servers = [
     "discord-presence",
 ]
