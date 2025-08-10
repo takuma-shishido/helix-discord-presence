@@ -1898,3 +1898,9 @@ name = "robots.txt"
 language-servers = [
     "discord-presence",
 ]
+
+[[language]]
+name = "pip-requirements"
+language-servers = [
+    "discord-presence",
+]
