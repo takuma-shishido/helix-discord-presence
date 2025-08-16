@@ -936,6 +936,13 @@ language-servers = [
 ]
 
 [[language]]
+name = "systemverilog"
+language-servers = [
+    "verible-verilog-ls",
+    "discord-presence",
+]
+
+[[language]]
 name = "edoc"
 language-servers = [
     "discord-presence",
@@ -1901,6 +1908,18 @@ language-servers = [
 
 [[language]]
 name = "pip-requirements"
+language-servers = [
+    "discord-presence",
+]
+
+[[language]]
+name = "kconfig"
+language-servers = [
+    "discord-presence",
+]
+
+[[language]]
+name = "doxyfile"
 language-servers = [
     "discord-presence",
 ]
