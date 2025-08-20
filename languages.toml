@@ -1923,3 +1923,11 @@ name = "doxyfile"
 language-servers = [
     "discord-presence",
 ]
+
+[[language]]
+name = "cross-config"
+language-servers = [
+    "taplo",
+    "tombi",
+    "discord-presence",
+]
