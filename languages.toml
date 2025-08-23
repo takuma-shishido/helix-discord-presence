@@ -68,6 +68,12 @@ language-servers = [
 ]
 
 [[language]]
+name = "flatbuffers"
+language-servers = [
+    "discord-presence",
+]
+
+[[language]]
 name = "mint"
 language-servers = [
     "mint",
