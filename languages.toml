@@ -1937,3 +1937,11 @@ language-servers = [
     "tombi",
     "discord-presence",
 ]
+
+[[language]]
+name = "git-cliff-config"
+language-servers = [
+    "taplo",
+    "tombi",
+    "discord-presence",
+]
