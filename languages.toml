@@ -1945,3 +1945,15 @@ language-servers = [
     "tombi",
     "discord-presence",
 ]
+
+[[language]]
+name = "cython"
+language-servers = [
+    "discord-presence",
+]
+
+[[language]]
+name = "shellcheckrc"
+language-servers = [
+    "discord-presence",
+]
