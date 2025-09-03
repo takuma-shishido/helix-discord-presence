@@ -1957,3 +1957,9 @@ name = "shellcheckrc"
 language-servers = [
     "discord-presence",
 ]
+
+[[language]]
+name = "strictdoc"
+language-servers = [
+    "discord-presence",
+]
