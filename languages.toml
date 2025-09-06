@@ -50,6 +50,7 @@ language-servers = [
 name = "elixir"
 language-servers = [
     "elixir-ls",
+    "expert",
     "discord-presence",
 ]
 
@@ -637,6 +638,7 @@ language-servers = [
 name = "dockerfile"
 language-servers = [
     "docker-langserver",
+    "docker-language-server",
     "discord-presence",
 ]
 
@@ -645,6 +647,7 @@ name = "docker-compose"
 language-servers = [
     "docker-compose-langserver",
     "yaml-language-server",
+    "docker-language-server",
     "discord-presence",
 ]
 
@@ -840,6 +843,7 @@ language-servers = [
 name = "heex"
 language-servers = [
     "elixir-ls",
+    "expert",
     "discord-presence",
 ]
 
@@ -1961,5 +1965,12 @@ language-servers = [
 [[language]]
 name = "strictdoc"
 language-servers = [
+    "discord-presence",
+]
+
+[[language]]
+name = "docker-bake"
+language-servers = [
+    "docker-language-server",
     "discord-presence",
 ]
