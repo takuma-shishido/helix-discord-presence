@@ -1310,6 +1310,7 @@ language-servers = [
 [[language]]
 name = "hdl"
 language-servers = [
+    "hdls",
     "discord-presence",
 ]
 
@@ -1972,5 +1973,13 @@ language-servers = [
 name = "docker-bake"
 language-servers = [
     "docker-language-server",
+    "discord-presence",
+]
+
+[[language]]
+name = "gitlab-ci"
+language-servers = [
+    "yaml-language-server",
+    "gitlab-ci-ls",
     "discord-presence",
 ]
