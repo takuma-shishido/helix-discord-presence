@@ -1990,3 +1990,9 @@ language-servers = [
     "wikitext-lsp",
     "discord-presence",
 ]
+
+[[language]]
+name = "slisp"
+language-servers = [
+    "discord-presence",
+]
