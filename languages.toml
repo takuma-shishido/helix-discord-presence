@@ -47,6 +47,13 @@ language-servers = [
 ]
 
 [[language]]
+name = "eiffel"
+language-servers = [
+    "eiffel-language-server",
+    "discord-presence",
+]
+
+[[language]]
 name = "elixir"
 language-servers = [
     "elixir-ls",
@@ -1454,6 +1461,14 @@ language-servers = [
 ]
 
 [[language]]
+name = "miseconfig"
+language-servers = [
+    "taplo",
+    "tombi",
+    "discord-presence",
+]
+
+[[language]]
 name = "jq"
 language-servers = [
     "jq-lsp",
@@ -1993,6 +2008,12 @@ language-servers = [
 
 [[language]]
 name = "slisp"
+language-servers = [
+    "discord-presence",
+]
+
+[[language]]
+name = "nearley"
 language-servers = [
     "discord-presence",
 ]
