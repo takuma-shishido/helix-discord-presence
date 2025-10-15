@@ -2017,3 +2017,10 @@ name = "nearley"
 language-servers = [
     "discord-presence",
 ]
+
+[[language]]
+name = "kcl"
+language-servers = [
+    "kcl-lsp",
+    "discord-presence",
+]
