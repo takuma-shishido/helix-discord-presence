@@ -2024,3 +2024,9 @@ language-servers = [
     "kcl-lsp",
     "discord-presence",
 ]
+
+[[language]]
+name = "bovex"
+language-servers = [
+    "discord-presence",
+]
