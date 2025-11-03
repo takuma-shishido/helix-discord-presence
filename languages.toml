@@ -661,6 +661,7 @@ language-servers = [
 [[language]]
 name = "git-commit"
 language-servers = [
+    "commit-lsp",
     "discord-presence",
 ]
 
