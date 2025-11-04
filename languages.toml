@@ -606,6 +606,7 @@ name = "markdown"
 language-servers = [
     "marksman",
     "markdown-oxide",
+    "rumdl",
     "discord-presence",
 ]
 
