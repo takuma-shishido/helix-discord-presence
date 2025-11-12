@@ -304,6 +304,15 @@ language-servers = [
 ]
 
 [[language]]
+name = "rshtml"
+language-servers = [
+    "rshtml-analyzer",
+    "vscode-html-language-server",
+    "superhtml",
+    "discord-presence",
+]
+
+[[language]]
 name = "bash"
 language-servers = [
     "bash-language-server",
@@ -473,6 +482,13 @@ language-servers = [
 [[language]]
 name = "haskell-persistent"
 language-servers = [
+    "discord-presence",
+]
+
+[[language]]
+name = "haskell-literate"
+language-servers = [
+    "haskell-language-server",
     "discord-presence",
 ]
 
@@ -799,6 +815,7 @@ language-servers = [
 [[language]]
 name = "ron"
 language-servers = [
+    "ron-lsp",
     "discord-presence",
 ]
 
@@ -2030,5 +2047,12 @@ language-servers = [
 [[language]]
 name = "bovex"
 language-servers = [
+    "discord-presence",
+]
+
+[[language]]
+name = "haxe"
+language-servers = [
+    "haxe-language-server",
     "discord-presence",
 ]
