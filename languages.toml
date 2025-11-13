@@ -2056,3 +2056,15 @@ language-servers = [
     "haxe-language-server",
     "discord-presence",
 ]
+
+[[language]]
+name = "basic"
+language-servers = [
+    "discord-presence",
+]
+
+[[language]]
+name = "freebasic"
+language-servers = [
+    "discord-presence",
+]
