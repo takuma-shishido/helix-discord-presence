@@ -1632,6 +1632,12 @@ language-servers = [
 ]
 
 [[language]]
+name = "rpmspec"
+language-servers = [
+    "discord-presence",
+]
+
+[[language]]
 name = "pkgbuild"
 language-servers = [
     "termux-language-server",
@@ -2065,6 +2071,12 @@ language-servers = [
 
 [[language]]
 name = "freebasic"
+language-servers = [
+    "discord-presence",
+]
+
+[[language]]
+name = "scfg"
 language-servers = [
     "discord-presence",
 ]
