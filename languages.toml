@@ -1613,6 +1613,13 @@ language-servers = [
 ]
 
 [[language]]
+name = "hy"
+language-servers = [
+    "hyuga",
+    "discord-presence",
+]
+
+[[language]]
 name = "hyprlang"
 language-servers = [
     "hyprls",
