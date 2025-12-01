@@ -2087,3 +2087,10 @@ name = "scfg"
 language-servers = [
     "discord-presence",
 ]
+
+[[language]]
+name = "ripple"
+language-servers = [
+    "ripple-lsp",
+    "discord-presence",
+]
