@@ -2094,3 +2094,10 @@ language-servers = [
     "ripple-lsp",
     "discord-presence",
 ]
+
+[[language]]
+name = "woodpecker-ci"
+language-servers = [
+    "yaml-language-server",
+    "discord-presence",
+]
