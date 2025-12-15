@@ -2101,3 +2101,9 @@ language-servers = [
     "yaml-language-server",
     "discord-presence",
 ]
+
+[[language]]
+name = "chuck"
+language-servers = [
+    "discord-presence",
+]
