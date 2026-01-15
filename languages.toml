@@ -539,6 +539,7 @@ language-servers = [
 name = "glsl"
 language-servers = [
     "glsl_analyzer",
+    "glsld",
     "discord-presence",
 ]
 
@@ -686,6 +687,14 @@ language-servers = [
 [[language]]
 name = "git-notes"
 language-servers = [
+    "discord-presence",
+]
+
+[[language]]
+name = "github-action"
+language-servers = [
+    "actions-language-server",
+    "yaml-language-server",
     "discord-presence",
 ]
 
