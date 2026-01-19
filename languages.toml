@@ -439,6 +439,12 @@ language-servers = [
 ]
 
 [[language]]
+name = "lua-format-string"
+language-servers = [
+    "discord-presence",
+]
+
+[[language]]
 name = "teal"
 language-servers = [
     "teal-language-server",
@@ -905,6 +911,7 @@ language-servers = [
 name = "nu"
 language-servers = [
     "nu-lsp",
+    "nu-lint",
     "discord-presence",
 ]
 
@@ -985,13 +992,14 @@ language-servers = [
 [[language]]
 name = "verilog"
 language-servers = [
-    "svlangserver",
+    "verible-verilog-ls",
     "discord-presence",
 ]
 
 [[language]]
 name = "systemverilog"
 language-servers = [
+    "svlangserver",
     "verible-verilog-ls",
     "discord-presence",
 ]
@@ -2122,6 +2130,18 @@ language-servers = [
 
 [[language]]
 name = "chuck"
+language-servers = [
+    "discord-presence",
+]
+
+[[language]]
+name = "qmv"
+language-servers = [
+    "discord-presence",
+]
+
+[[language]]
+name = "klog"
 language-servers = [
     "discord-presence",
 ]
