@@ -255,6 +255,13 @@ language-servers = [
 ]
 
 [[language]]
+name = "less"
+language-servers = [
+    "vscode-css-language-server",
+    "discord-presence",
+]
+
+[[language]]
 name = "html"
 language-servers = [
     "vscode-html-language-server",
@@ -389,6 +396,7 @@ language-servers = [
 [[language]]
 name = "smali"
 language-servers = [
+    "smalisp",
     "discord-presence",
 ]
 
