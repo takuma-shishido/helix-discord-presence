@@ -159,6 +159,13 @@ language-servers = [
 ]
 
 [[language]]
+name = "c3"
+language-servers = [
+    "c3-lsp",
+    "discord-presence",
+]
+
+[[language]]
 name = "cel"
 language-servers = [
     "discord-presence",
@@ -522,6 +529,12 @@ language-servers = [
 ]
 
 [[language]]
+name = "picat"
+language-servers = [
+    "discord-presence",
+]
+
+[[language]]
 name = "prolog"
 language-servers = [
     "swipl",
@@ -554,6 +567,12 @@ name = "glsl"
 language-servers = [
     "glsl_analyzer",
     "glsld",
+    "discord-presence",
+]
+
+[[language]]
+name = "penrose"
+language-servers = [
     "discord-presence",
 ]
 
@@ -846,6 +865,7 @@ language-servers = [
 [[language]]
 name = "robot"
 language-servers = [
+    "robotcode",
     "robotframework_ls",
     "discord-presence",
 ]
