@@ -2173,3 +2173,16 @@ name = "klog"
 language-servers = [
     "discord-presence",
 ]
+
+[[language]]
+name = "tilt"
+language-servers = [
+    "tilt",
+    "discord-presence",
+]
+
+[[language]]
+name = "gnuplot"
+language-servers = [
+    "discord-presence",
+]
