@@ -153,6 +153,7 @@ language-servers = [
 [[language]]
 name = "c-sharp"
 language-servers = [
+    "roslyn-language-server",
     "omnisharp",
     "csharp-ls",
     "discord-presence",
