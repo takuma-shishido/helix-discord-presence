@@ -585,6 +585,12 @@ language-servers = [
 ]
 
 [[language]]
+name = "embedded-perl"
+language-servers = [
+    "discord-presence",
+]
+
+[[language]]
 name = "pod"
 language-servers = [
     "discord-presence",
@@ -729,6 +735,7 @@ name = "github-action"
 language-servers = [
     "actions-language-server",
     "yaml-language-server",
+    "zizmor",
     "discord-presence",
 ]
 
@@ -1291,6 +1298,7 @@ language-servers = [
 [[language]]
 name = "ponylang"
 language-servers = [
+    "pony-lsp",
     "discord-presence",
 ]
 
@@ -2176,6 +2184,13 @@ language-servers = [
 ]
 
 [[language]]
+name = "styx"
+language-servers = [
+    "styx",
+    "discord-presence",
+]
+
+[[language]]
 name = "tilt"
 language-servers = [
     "tilt",
@@ -2184,6 +2199,25 @@ language-servers = [
 
 [[language]]
 name = "gnuplot"
+language-servers = [
+    "discord-presence",
+]
+
+[[language]]
+name = "drools"
+language-servers = [
+    "drools-lsp",
+    "discord-presence",
+]
+
+[[language]]
+name = "proverif"
+language-servers = [
+    "discord-presence",
+]
+
+[[language]]
+name = "ptx"
 language-servers = [
     "discord-presence",
 ]
