@@ -2221,3 +2221,9 @@ name = "ptx"
 language-servers = [
     "discord-presence",
 ]
+
+[[language]]
+name = "tql"
+language-servers = [
+    "discord-presence",
+]
