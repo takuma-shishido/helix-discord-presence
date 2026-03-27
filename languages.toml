@@ -2204,6 +2204,13 @@ language-servers = [
 ]
 
 [[language]]
+name = "ebnf"
+language-servers = [
+    "ebnfer",
+    "discord-presence",
+]
+
+[[language]]
 name = "drools"
 language-servers = [
     "drools-lsp",
